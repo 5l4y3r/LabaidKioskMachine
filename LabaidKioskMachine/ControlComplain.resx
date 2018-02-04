@@ -117,35 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="topn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\topn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ComplainSubmitBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAG4AAAAuCAYAAADJAyyXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKISURBVHhe7dtPSJNxHMfxHTt27FbHCN2ICK2xzQzEWx1q
+        j4K4pZuDik5RHaI6BOU2m9ueyerUH/BiSvSHIlBMMqEOIiKJh4XBDjnGM2uUbIdffZ79WoQhdZj9fvB5
+        wQPCMz08b/Y8v8fn+ziIiIiIiBpr99XADmfM3+VJh5550/3zrclAwRkzBLfGbDi+OM4+MzTVHDWCrsSx
+        nTLF33NGT3QeTgWL5yai68/fz4p3H5dEvrQmqHFwfHGcJ1feigtPhr+4031WSyIQlkm2hsptmfBE7+gV
+        q1C25J+k/+HzRlmcf5woec3w3L7oyV0y0WaI5jVDq+MLkxX5u6SA17l50ZE9veq6YeyRqX6HbxqjqQmn
+        UFz/ZKpfcE3D6bH2MVLR4NTdsjt56ppMVls9YiHCa5raNqoV0Xn7bLEp3r3XDoelJ1Yxcj8p7M6b8eqh
+        VDBhh8N9A5agpL7lTx/Ej9uEnB3OnQzmc8W83EUqw+ly/1B31Q534FbPV9wzkB7wXxY7HH4gfTCcphhO
+        UwynKYbTFMNpiuE0xXCaYjhNMZymGE5TDKcphtNUPRweE+BxAemhHg6DmJyZ1Ec9HOb2MAJG6sMDbzz4
+        tsMdHOq5HJ9+8E3uI4U9WpwWnnTfmB0Og5ZHRyIWr3Pqi4xdLzUN+o/b4cCXCceHZ0Y56aWwp0szlSOZ
+        gRcyWQ1mK9szA4sL+RX5MVIJZl59Zmjtj2/wYNCyI3umwIkvtSCace9i0RUz2mSqzZpv+lvx4kd29iEX
+        Kwp4uTxXsb9pW0X7CadNj9mf6rp/ycIqhqPp2wujkngnEe8mto9EXv3zC46ojKVnS6J3HTd93LZnw5wr
+        3gLG28AyBREREZHKHI7vVq74Li4YydcAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="bookreviewstars" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bookreviewstars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Customer Comments, English222" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Customer Comments, English222.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="left-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="back-left-arrow-circular-button-outline" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back-left-arrow-circular-button-outline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home-icon-silhouette" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home-icon-silhouette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DocTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DocTab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LanguageBackGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LanguageBackGround.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="left-arrow(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left-arrow(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bunifuiOSSwitch1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAAA4CAYAAAALrl3YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVHhe7c5RjsMgDADR3P86e8DuH1XFtCFgu1GZkd4X
+        xnDYDj3+Hlu4dfThndwm+tzOvhZ9Rk+l0QfUS48e1bmU6CGNC40e0HUh0WLNW4oWat10tEzrpqJFinMp
+        WqB4w9FlxRuKLirPaXRJeT5GF5TvbTSsfBgNqgZGg6rTRUOq00VDqtNFQ6rzEg2o1ks0oHotOlS9Fh2q
+        XosOVa9Fh6rXokPVa9GhanXRkOp00ZDqdNGQ6nTRkOp00ZBqvI2Gle9tNKx8H6MLynMaXVKeoeii4g1H
+        lxXvUrRAcaaiRVo3HS3TuqVooeaFRIt1XWj0gMalRA/pXHr0qHql0Qf09LXoMzu7TfS5ndw6+vAvsl/v
+        OP4Bo5FBbEPqrXMAAAAASUVORK5CYII=
+</value>
   </data>
 </root>

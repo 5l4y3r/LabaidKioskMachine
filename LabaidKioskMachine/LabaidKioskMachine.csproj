@@ -33,8 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>D:\bunifu cracked\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,14 +50,98 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ControlComplain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlComplain.Designer.cs">
+      <DependentUpon>ControlComplain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlComplainBn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlComplainBn.Designer.cs">
+      <DependentUpon>ControlComplainBn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlFeedback.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlFeedback.Designer.cs">
+      <DependentUpon>ControlFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlFeedbackBn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlFeedbackBn.Designer.cs">
+      <DependentUpon>ControlFeedbackBn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlLanguage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlLanguage.Designer.cs">
+      <DependentUpon>ControlLanguage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUserInfo.Designer.cs">
+      <DependentUpon>ControlUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUserInfoBn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUserInfoBn.Designer.cs">
+      <DependentUpon>ControlUserInfoBn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlWelcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlWelcome.Designer.cs">
+      <DependentUpon>ControlWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlWelcomeBn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlWelcomeBn.Designer.cs">
+      <DependentUpon>ControlWelcomeBn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ControlComplain.resx">
+      <DependentUpon>ControlComplain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlComplainBn.resx">
+      <DependentUpon>ControlComplainBn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlFeedback.resx">
+      <DependentUpon>ControlFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlFeedbackBn.resx">
+      <DependentUpon>ControlFeedbackBn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlLanguage.resx">
+      <DependentUpon>ControlLanguage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUserInfo.resx">
+      <DependentUpon>ControlUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUserInfoBn.resx">
+      <DependentUpon>ControlUserInfoBn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlWelcome.resx">
+      <DependentUpon>ControlWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlWelcomeBn.resx">
+      <DependentUpon>ControlWelcomeBn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +150,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +164,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-icon-silhouette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LanguageBackGround.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookreviewstars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Customer Comments, English222.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DocTab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-left-arrow-circular-button-outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow%281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

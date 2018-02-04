@@ -117,35 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="topn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\topn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuiOSSwitch1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAAA4CAYAAAALrl3YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVHhe7c5RjsMgDADR3P86e8DuH1XFtCFgu1GZkd4X
+        xnDYDj3+Hlu4dfThndwm+tzOvhZ9Rk+l0QfUS48e1bmU6CGNC40e0HUh0WLNW4oWat10tEzrpqJFinMp
+        WqB4w9FlxRuKLirPaXRJeT5GF5TvbTSsfBgNqgZGg6rTRUOq00VDqtNFQ6rzEg2o1ks0oHotOlS9Fh2q
+        XosOVa9Fh6rXokPVa9GhanXRkOp00ZDqdNGQ6nTRkOp00ZBqvI2Gle9tNKx8H6MLynMaXVKeoeii4g1H
+        lxXvUrRAcaaiRVo3HS3TuqVooeaFRIt1XWj0gMalRA/pXHr0qHql0Qf09LXoMzu7TfS5ndw6+vAvsl/v
+        OP4Bo5FBbEPqrXMAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="bookreviewstars" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bookreviewstars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ComplainSubmitBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGwAAAAuCAYAAADN9vyqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKISURBVHhe7dtPSJNxHMfxHTt27FbHCN2ICK2xzQzEWx1q
+        j4K4pZuDik5RHaI6BOU2e9z2TFan/oAXU6I/FIFikgl1EBFJPCwMdsgxnpmjZDs89Xn2axGGJJj7/eDz
+        ggeEZ3p43ux5fm7fn4OIiIiIaGv2Xg/scsb8HZ5U6IU31TvbnAjknTHN4rG9B64rrq/PCE00RrWgSz+x
+        WyT4d87oqfajyWDhwlh09eXHaevD5wUrV1yxaPvhuuL6ji+9ty49G1xzp3rMJj0QFik2h7ot6fBY9/A1
+        M18yxZ+knfR1vWRdfKoXvUZ45kD09B6RZiPE8hqh5dG58bL4Xaqjt9lZqy1zdtl1S9snEv0J7yzGkgtu
+        lXi+iUS/4ZmF22D1ZSST/on7JXfizA2RqroaxAKDzyw5rVfKVvvd84WGeOd+OxiWklidiPMkoXvvRitH
+        kkHdDob1P5aUJK/FL5+sn8v9rB3MnQjmsoWcOEUywm3x4EBnxQ526E7XN6z9SW74VMQOhh9IfgymGAZT
+        DIMphsEUw2CKYTDFMJhiGEwxDKYYBlMMgymGwRRTC4aP7fHxPcmtFgyDjJw5lF8tGObfMFJF8sIXzPii
+        2Q52eKDranzy0XdxjiT0ZH7S8qR6RuxgGFQ8PhQx+RyTV2TkZrGh33/SDga+dDg+ODXMySkJPV+YKh9L
+        970Sqaowm9ia7pufyy2Jl5EMMCvqM0Irf93RgkHFtsy5PCeo5IBY2oPLBVdMaxGJNmq87W/GhojM9GMu
+        Quro9eJM2X5nbRbrF9wePUZvsuPhFROrE45w7wyMGmIvHvbktQ5F3mx5Yx/qYinZpHev4p82Hv/3wHwo
+        drti16tIQERERFQPDscPfhXo60U5KGcAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="Customer Comments, English222" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Customer Comments, English222.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="left-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="back-left-arrow-circular-button-outline" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back-left-arrow-circular-button-outline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home-icon-silhouette" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home-icon-silhouette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DocTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DocTab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LanguageBackGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LanguageBackGround.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="left-arrow(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left-arrow(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
