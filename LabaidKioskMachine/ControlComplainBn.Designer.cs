@@ -92,8 +92,8 @@
             this.tableLayoutPanel7.Location = new System.Drawing.Point(28, 3);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 3;
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.95638F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.633588F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.82443F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.396947F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 58.52417F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel7.Size = new System.Drawing.Size(751, 393);
@@ -301,11 +301,11 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.bunifuiOSSwitch1, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(653, 136);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(653, 132);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(95, 23);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(95, 27);
             this.tableLayoutPanel1.TabIndex = 9;
             // 
             // label1
@@ -316,7 +316,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
             this.label1.Location = new System.Drawing.Point(64, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 23);
+            this.label1.Size = new System.Drawing.Size(21, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "En";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -329,7 +329,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
             this.label2.Location = new System.Drawing.Point(8, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 23);
+            this.label2.Size = new System.Drawing.Size(27, 27);
             this.label2.TabIndex = 1;
             this.label2.Text = "বাং";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -361,7 +361,7 @@
             this.pictureBox1.Image = global::LabaidKioskMachine.Properties.Resources.topn;
             this.pictureBox1.Location = new System.Drawing.Point(12, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(635, 127);
+            this.pictureBox1.Size = new System.Drawing.Size(635, 123);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -375,7 +375,7 @@
             this.btnHome.ImageActive = null;
             this.btnHome.Location = new System.Drawing.Point(653, 3);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(95, 127);
+            this.btnHome.Size = new System.Drawing.Size(95, 123);
             this.btnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnHome.TabIndex = 6;
             this.btnHome.TabStop = false;
