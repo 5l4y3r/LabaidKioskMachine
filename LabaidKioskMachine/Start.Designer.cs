@@ -45,9 +45,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(785, 468);
+            this.ControlBox = false;
             this.Controls.Add(this.panelMain);
+            this.DoubleBuffered = true;
             this.Name = "Start";
-            this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Start_Load);
             this.ResumeLayout(false);

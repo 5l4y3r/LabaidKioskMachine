@@ -370,6 +370,7 @@
             this.btnHome.TabIndex = 5;
             this.btnHome.TabStop = false;
             this.btnHome.Zoom = 10;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // pictureBox1
             // 

@@ -35,21 +35,21 @@
             this.FeedbackBtn = new ns1.BunifuThinButton2();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
             this.Complainbtn = new ns1.BunifuThinButton2();
-            this.PanelWelcome = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.bunifuImageButton1 = new ns1.BunifuImageButton();
+            this.PanelWelcome = new System.Windows.Forms.Panel();
             this.PanelWelcomeMain.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
             this.tableLayoutPanel12.SuspendLayout();
-            this.PanelWelcome.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
+            this.PanelWelcome.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelWelcomeMain
             // 
-            this.PanelWelcomeMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
+            this.PanelWelcomeMain.BackColor = System.Drawing.Color.Transparent;
             this.PanelWelcomeMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PanelWelcomeMain.ColumnCount = 2;
             this.PanelWelcomeMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
@@ -78,8 +78,8 @@
             this.tableLayoutPanel8.Location = new System.Drawing.Point(301, 3);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 5;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.24784F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.79226F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.50806F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.274194F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.42635F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.66431F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34.86923F));
@@ -106,21 +106,21 @@
             // 
             this.FeedbackBtn.ActiveBorderThickness = 1;
             this.FeedbackBtn.ActiveCornerRadius = 20;
-            this.FeedbackBtn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.FeedbackBtn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
             this.FeedbackBtn.ActiveForecolor = System.Drawing.Color.White;
-            this.FeedbackBtn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.FeedbackBtn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
             this.FeedbackBtn.BackColor = System.Drawing.Color.Transparent;
             this.FeedbackBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FeedbackBtn.BackgroundImage")));
             this.FeedbackBtn.ButtonText = "রোগীর প্রতিক্রিয়া";
             this.FeedbackBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FeedbackBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FeedbackBtn.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FeedbackBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.FeedbackBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
             this.FeedbackBtn.IdleBorderThickness = 1;
             this.FeedbackBtn.IdleCornerRadius = 20;
             this.FeedbackBtn.IdleFillColor = System.Drawing.Color.White;
-            this.FeedbackBtn.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
-            this.FeedbackBtn.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.FeedbackBtn.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
+            this.FeedbackBtn.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
             this.FeedbackBtn.Location = new System.Drawing.Point(113, 6);
             this.FeedbackBtn.Margin = new System.Windows.Forms.Padding(6);
             this.FeedbackBtn.Name = "FeedbackBtn";
@@ -172,17 +172,6 @@
             this.Complainbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Complainbtn.Click += new System.EventHandler(this.Complainbtn_Click);
             // 
-            // PanelWelcome
-            // 
-            this.PanelWelcome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
-            this.PanelWelcome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PanelWelcome.Controls.Add(this.PanelWelcomeMain);
-            this.PanelWelcome.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelWelcome.Location = new System.Drawing.Point(0, 0);
-            this.PanelWelcome.Name = "PanelWelcome";
-            this.PanelWelcome.Size = new System.Drawing.Size(747, 502);
-            this.PanelWelcome.TabIndex = 12;
-            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 3;
@@ -195,8 +184,8 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(437, 44);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(437, 61);
             this.tableLayoutPanel1.TabIndex = 7;
             // 
             // bunifuImageButton1
@@ -209,27 +198,40 @@
             this.bunifuImageButton1.ImageActive = null;
             this.bunifuImageButton1.Location = new System.Drawing.Point(3, 3);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(96, 38);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(96, 55);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuImageButton1.TabIndex = 0;
             this.bunifuImageButton1.TabStop = false;
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
             // 
+            // PanelWelcome
+            // 
+            this.PanelWelcome.BackColor = System.Drawing.Color.Transparent;
+            this.PanelWelcome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PanelWelcome.Controls.Add(this.PanelWelcomeMain);
+            this.PanelWelcome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelWelcome.Location = new System.Drawing.Point(0, 0);
+            this.PanelWelcome.Name = "PanelWelcome";
+            this.PanelWelcome.Size = new System.Drawing.Size(747, 502);
+            this.PanelWelcome.TabIndex = 12;
+            // 
             // ControlWelcomeBn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.PanelWelcome);
+            this.DoubleBuffered = true;
             this.Name = "ControlWelcomeBn";
             this.Size = new System.Drawing.Size(747, 502);
+            this.Load += new System.EventHandler(this.ControlWelcomeBn_Load);
             this.PanelWelcomeMain.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
             this.tableLayoutPanel10.ResumeLayout(false);
             this.tableLayoutPanel12.ResumeLayout(false);
-            this.PanelWelcome.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
+            this.PanelWelcome.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

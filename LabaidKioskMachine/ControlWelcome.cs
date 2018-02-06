@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using LabaidKioskMachine.Properties;
 
 namespace LabaidKioskMachine
 {
@@ -18,6 +12,7 @@ namespace LabaidKioskMachine
             InitializeComponent();
             x = 0;
             Dock = DockStyle.Fill;
+            PanelWelcome.BackgroundImage = Resources.DocTab;
 
         }
 
@@ -48,6 +43,21 @@ namespace LabaidKioskMachine
             this.Controls.Add(cc);
             cc.Show();
             cc.Dock = DockStyle.Fill;
+        }
+
+        private void ControlWelcome_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleParam = base.CreateParams;
+                handleParam.ExStyle |= 0x02000000;   // WS_EX_COMPOSITED       
+                return handleParam;
+            }
         }
     }
 }

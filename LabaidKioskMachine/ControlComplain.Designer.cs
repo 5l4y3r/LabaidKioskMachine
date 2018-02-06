@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ControlComplain));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
+            this.ComplainSubmitBtn = new ns1.BunifuThinButton2();
             this.txtBilling = new ns1.BunifuMaterialTextbox();
             this.txtHelp = new ns1.BunifuMaterialTextbox();
             this.txtAcco = new ns1.BunifuMaterialTextbox();
@@ -42,22 +43,21 @@
             this.lblNurse = new System.Windows.Forms.Label();
             this.txtDoc = new ns1.BunifuMaterialTextbox();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnHome = new ns1.BunifuImageButton();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.PanelComplain = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnHome = new ns1.BunifuImageButton();
             this.bunifuiOSSwitch1 = new ns1.BunifuiOSSwitch();
-            this.ComplainSubmitBtn = new ns1.BunifuThinButton2();
+            this.PanelComplain = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel16.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.PanelComplain.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
             this.SuspendLayout();
             // 
             // backgroundWorker1
@@ -80,6 +80,33 @@
             this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.92593F));
             this.tableLayoutPanel16.Size = new System.Drawing.Size(759, 115);
             this.tableLayoutPanel16.TabIndex = 1;
+            // 
+            // ComplainSubmitBtn
+            // 
+            this.ComplainSubmitBtn.ActiveBorderThickness = 1;
+            this.ComplainSubmitBtn.ActiveCornerRadius = 20;
+            this.ComplainSubmitBtn.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.ComplainSubmitBtn.ActiveForecolor = System.Drawing.Color.White;
+            this.ComplainSubmitBtn.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.ComplainSubmitBtn.BackColor = System.Drawing.Color.Transparent;
+            this.ComplainSubmitBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ComplainSubmitBtn.BackgroundImage")));
+            this.ComplainSubmitBtn.ButtonText = "Submit";
+            this.ComplainSubmitBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ComplainSubmitBtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ComplainSubmitBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComplainSubmitBtn.ForeColor = System.Drawing.Color.SeaGreen;
+            this.ComplainSubmitBtn.IdleBorderThickness = 1;
+            this.ComplainSubmitBtn.IdleCornerRadius = 20;
+            this.ComplainSubmitBtn.IdleFillColor = System.Drawing.Color.White;
+            this.ComplainSubmitBtn.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.ComplainSubmitBtn.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.ComplainSubmitBtn.Location = new System.Drawing.Point(313, 5);
+            this.ComplainSubmitBtn.Margin = new System.Windows.Forms.Padding(5);
+            this.ComplainSubmitBtn.Name = "ComplainSubmitBtn";
+            this.ComplainSubmitBtn.Size = new System.Drawing.Size(110, 46);
+            this.ComplainSubmitBtn.TabIndex = 0;
+            this.ComplainSubmitBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ComplainSubmitBtn.Click += new System.EventHandler(this.ComplainSubmitBtn_Click);
             // 
             // txtBilling
             // 
@@ -268,6 +295,33 @@
             this.tableLayoutPanel7.Size = new System.Drawing.Size(759, 391);
             this.tableLayoutPanel7.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::LabaidKioskMachine.Properties.Resources.topn;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(642, 125);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.Color.Transparent;
+            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnHome.Image = global::LabaidKioskMachine.Properties.Resources.home_icon_silhouette;
+            this.btnHome.ImageActive = null;
+            this.btnHome.Location = new System.Drawing.Point(660, 3);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(96, 125);
+            this.btnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnHome.TabIndex = 6;
+            this.btnHome.TabStop = false;
+            this.btnHome.Zoom = 10;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 2;
@@ -338,6 +392,22 @@
             this.label2.Text = "বাং";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // bunifuiOSSwitch1
+            // 
+            this.bunifuiOSSwitch1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuiOSSwitch1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuiOSSwitch1.BackgroundImage")));
+            this.bunifuiOSSwitch1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuiOSSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuiOSSwitch1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuiOSSwitch1.Location = new System.Drawing.Point(41, 3);
+            this.bunifuiOSSwitch1.Name = "bunifuiOSSwitch1";
+            this.bunifuiOSSwitch1.OffColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.bunifuiOSSwitch1.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
+            this.bunifuiOSSwitch1.Size = new System.Drawing.Size(43, 25);
+            this.bunifuiOSSwitch1.TabIndex = 2;
+            this.bunifuiOSSwitch1.Value = true;
+            this.bunifuiOSSwitch1.OnValueChange += new System.EventHandler(this.bunifuiOSSwitch1_OnValueChange);
+            // 
             // PanelComplain
             // 
             this.PanelComplain.BackColor = System.Drawing.Color.White;
@@ -355,76 +425,6 @@
             this.PanelComplain.Size = new System.Drawing.Size(790, 518);
             this.PanelComplain.TabIndex = 2;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::LabaidKioskMachine.Properties.Resources.topn;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(642, 125);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnHome
-            // 
-            this.btnHome.BackColor = System.Drawing.Color.Transparent;
-            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHome.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnHome.Image = global::LabaidKioskMachine.Properties.Resources.home_icon_silhouette;
-            this.btnHome.ImageActive = null;
-            this.btnHome.Location = new System.Drawing.Point(660, 3);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(96, 125);
-            this.btnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnHome.TabIndex = 6;
-            this.btnHome.TabStop = false;
-            this.btnHome.Zoom = 10;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
-            // 
-            // bunifuiOSSwitch1
-            // 
-            this.bunifuiOSSwitch1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuiOSSwitch1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuiOSSwitch1.BackgroundImage")));
-            this.bunifuiOSSwitch1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuiOSSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuiOSSwitch1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuiOSSwitch1.Location = new System.Drawing.Point(41, 3);
-            this.bunifuiOSSwitch1.Name = "bunifuiOSSwitch1";
-            this.bunifuiOSSwitch1.OffColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
-            this.bunifuiOSSwitch1.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
-            this.bunifuiOSSwitch1.Size = new System.Drawing.Size(43, 25);
-            this.bunifuiOSSwitch1.TabIndex = 2;
-            this.bunifuiOSSwitch1.Value = true;
-            this.bunifuiOSSwitch1.OnValueChange += new System.EventHandler(this.bunifuiOSSwitch1_OnValueChange);
-            // 
-            // ComplainSubmitBtn
-            // 
-            this.ComplainSubmitBtn.ActiveBorderThickness = 1;
-            this.ComplainSubmitBtn.ActiveCornerRadius = 20;
-            this.ComplainSubmitBtn.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.ComplainSubmitBtn.ActiveForecolor = System.Drawing.Color.White;
-            this.ComplainSubmitBtn.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.ComplainSubmitBtn.BackColor = System.Drawing.Color.Transparent;
-            this.ComplainSubmitBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ComplainSubmitBtn.BackgroundImage")));
-            this.ComplainSubmitBtn.ButtonText = "Submit";
-            this.ComplainSubmitBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ComplainSubmitBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComplainSubmitBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ComplainSubmitBtn.ForeColor = System.Drawing.Color.SeaGreen;
-            this.ComplainSubmitBtn.IdleBorderThickness = 1;
-            this.ComplainSubmitBtn.IdleCornerRadius = 20;
-            this.ComplainSubmitBtn.IdleFillColor = System.Drawing.Color.White;
-            this.ComplainSubmitBtn.IdleForecolor = System.Drawing.Color.SeaGreen;
-            this.ComplainSubmitBtn.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.ComplainSubmitBtn.Location = new System.Drawing.Point(313, 5);
-            this.ComplainSubmitBtn.Margin = new System.Windows.Forms.Padding(5);
-            this.ComplainSubmitBtn.Name = "ComplainSubmitBtn";
-            this.ComplainSubmitBtn.Size = new System.Drawing.Size(110, 46);
-            this.ComplainSubmitBtn.TabIndex = 0;
-            this.ComplainSubmitBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ComplainSubmitBtn.Click += new System.EventHandler(this.ComplainSubmitBtn_Click);
-            // 
             // ControlComplain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -435,13 +435,13 @@
             this.Size = new System.Drawing.Size(790, 518);
             this.tableLayoutPanel16.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHome)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.PanelComplain.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnHome)).EndInit();
             this.ResumeLayout(false);
 
         }
