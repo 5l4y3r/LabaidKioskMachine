@@ -32,16 +32,11 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
             this.ComplainSubmitBtn = new ns1.BunifuThinButton2();
-            this.txtBilling = new ns1.BunifuMaterialTextbox();
-            this.txtHelp = new ns1.BunifuMaterialTextbox();
-            this.txtAcco = new ns1.BunifuMaterialTextbox();
-            this.txtNurse = new ns1.BunifuMaterialTextbox();
             this.lvlDoc = new System.Windows.Forms.Label();
             this.lblBilling = new System.Windows.Forms.Label();
             this.lblHlp = new System.Windows.Forms.Label();
             this.lvlAcco = new System.Windows.Forms.Label();
             this.lblNurse = new System.Windows.Forms.Label();
-            this.txtDoc = new ns1.BunifuMaterialTextbox();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnHome = new ns1.BunifuImageButton();
@@ -51,6 +46,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.bunifuiOSSwitch1 = new ns1.BunifuiOSSwitch();
             this.PanelComplain = new System.Windows.Forms.TableLayoutPanel();
+            this.txtDoc = new ns1.BunifuMetroTextbox();
+            this.txtNurse = new ns1.BunifuMetroTextbox();
+            this.txtAcco = new ns1.BunifuMetroTextbox();
+            this.txtHelp = new ns1.BunifuMetroTextbox();
+            this.txtBilling = new ns1.BunifuMetroTextbox();
             this.tableLayoutPanel16.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -66,7 +66,7 @@
             // 
             // tableLayoutPanel16
             // 
-            this.tableLayoutPanel16.BackColor = System.Drawing.Color.Transparent;
+            this.tableLayoutPanel16.BackColor = System.Drawing.Color.White;
             this.tableLayoutPanel16.ColumnCount = 3;
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.75691F));
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.86608F));
@@ -88,7 +88,7 @@
             this.ComplainSubmitBtn.ActiveFillColor = System.Drawing.Color.SeaGreen;
             this.ComplainSubmitBtn.ActiveForecolor = System.Drawing.Color.White;
             this.ComplainSubmitBtn.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.ComplainSubmitBtn.BackColor = System.Drawing.Color.Transparent;
+            this.ComplainSubmitBtn.BackColor = System.Drawing.Color.White;
             this.ComplainSubmitBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ComplainSubmitBtn.BackgroundImage")));
             this.ComplainSubmitBtn.ButtonText = "Submit";
             this.ComplainSubmitBtn.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -107,86 +107,6 @@
             this.ComplainSubmitBtn.TabIndex = 0;
             this.ComplainSubmitBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ComplainSubmitBtn.Click += new System.EventHandler(this.ComplainSubmitBtn_Click);
-            // 
-            // txtBilling
-            // 
-            this.txtBilling.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtBilling.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtBilling.Font = new System.Drawing.Font("Monospac821 BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBilling.ForeColor = System.Drawing.Color.Teal;
-            this.txtBilling.HintForeColor = System.Drawing.Color.Empty;
-            this.txtBilling.HintText = "";
-            this.txtBilling.isPassword = false;
-            this.txtBilling.LineFocusedColor = System.Drawing.Color.DarkCyan;
-            this.txtBilling.LineIdleColor = System.Drawing.Color.DarkSeaGreen;
-            this.txtBilling.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
-            this.txtBilling.LineThickness = 4;
-            this.txtBilling.Location = new System.Drawing.Point(105, 184);
-            this.txtBilling.Margin = new System.Windows.Forms.Padding(4);
-            this.txtBilling.Name = "txtBilling";
-            this.txtBilling.Size = new System.Drawing.Size(533, 39);
-            this.txtBilling.TabIndex = 9;
-            this.txtBilling.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txtHelp
-            // 
-            this.txtHelp.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtHelp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtHelp.Font = new System.Drawing.Font("Monospac821 BT", 14.25F);
-            this.txtHelp.ForeColor = System.Drawing.Color.Teal;
-            this.txtHelp.HintForeColor = System.Drawing.Color.Empty;
-            this.txtHelp.HintText = "";
-            this.txtHelp.isPassword = false;
-            this.txtHelp.LineFocusedColor = System.Drawing.Color.DarkCyan;
-            this.txtHelp.LineIdleColor = System.Drawing.Color.DarkSeaGreen;
-            this.txtHelp.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
-            this.txtHelp.LineThickness = 4;
-            this.txtHelp.Location = new System.Drawing.Point(107, 140);
-            this.txtHelp.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txtHelp.Name = "txtHelp";
-            this.txtHelp.Size = new System.Drawing.Size(529, 35);
-            this.txtHelp.TabIndex = 8;
-            this.txtHelp.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txtAcco
-            // 
-            this.txtAcco.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtAcco.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtAcco.Font = new System.Drawing.Font("Monospac821 BT", 14.25F);
-            this.txtAcco.ForeColor = System.Drawing.Color.Teal;
-            this.txtAcco.HintForeColor = System.Drawing.Color.Empty;
-            this.txtAcco.HintText = "";
-            this.txtAcco.isPassword = false;
-            this.txtAcco.LineFocusedColor = System.Drawing.Color.DarkCyan;
-            this.txtAcco.LineIdleColor = System.Drawing.Color.DarkSeaGreen;
-            this.txtAcco.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
-            this.txtAcco.LineThickness = 4;
-            this.txtAcco.Location = new System.Drawing.Point(107, 95);
-            this.txtAcco.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txtAcco.Name = "txtAcco";
-            this.txtAcco.Size = new System.Drawing.Size(529, 35);
-            this.txtAcco.TabIndex = 7;
-            this.txtAcco.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txtNurse
-            // 
-            this.txtNurse.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNurse.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtNurse.Font = new System.Drawing.Font("Monospac821 BT", 14.25F);
-            this.txtNurse.ForeColor = System.Drawing.Color.Teal;
-            this.txtNurse.HintForeColor = System.Drawing.Color.Empty;
-            this.txtNurse.HintText = "";
-            this.txtNurse.isPassword = false;
-            this.txtNurse.LineFocusedColor = System.Drawing.Color.DarkCyan;
-            this.txtNurse.LineIdleColor = System.Drawing.Color.DarkSeaGreen;
-            this.txtNurse.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
-            this.txtNurse.LineThickness = 4;
-            this.txtNurse.Location = new System.Drawing.Point(107, 50);
-            this.txtNurse.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txtNurse.Name = "txtNurse";
-            this.txtNurse.Size = new System.Drawing.Size(529, 35);
-            this.txtNurse.TabIndex = 6;
-            this.txtNurse.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // lvlDoc
             // 
@@ -253,26 +173,6 @@
             this.lblNurse.Text = "Nurse";
             this.lblNurse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // txtDoc
-            // 
-            this.txtDoc.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtDoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtDoc.Font = new System.Drawing.Font("Monospac821 BT", 14.25F);
-            this.txtDoc.ForeColor = System.Drawing.Color.Teal;
-            this.txtDoc.HintForeColor = System.Drawing.Color.Empty;
-            this.txtDoc.HintText = "";
-            this.txtDoc.isPassword = false;
-            this.txtDoc.LineFocusedColor = System.Drawing.Color.DarkCyan;
-            this.txtDoc.LineIdleColor = System.Drawing.Color.DarkSeaGreen;
-            this.txtDoc.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
-            this.txtDoc.LineThickness = 4;
-            this.txtDoc.Location = new System.Drawing.Point(107, 5);
-            this.txtDoc.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txtDoc.Name = "txtDoc";
-            this.txtDoc.Size = new System.Drawing.Size(529, 35);
-            this.txtDoc.TabIndex = 5;
-            this.txtDoc.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
             // tableLayoutPanel7
             // 
             this.tableLayoutPanel7.BackColor = System.Drawing.Color.White;
@@ -331,12 +231,12 @@
             this.tableLayoutPanel2.Controls.Add(this.txtHelp, 1, 3);
             this.tableLayoutPanel2.Controls.Add(this.txtAcco, 1, 2);
             this.tableLayoutPanel2.Controls.Add(this.txtNurse, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.txtDoc, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.lvlDoc, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.lblBilling, 0, 4);
             this.tableLayoutPanel2.Controls.Add(this.lblHlp, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.lvlAcco, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.lblNurse, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.txtDoc, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 161);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -425,6 +325,101 @@
             this.PanelComplain.Size = new System.Drawing.Size(790, 518);
             this.PanelComplain.TabIndex = 2;
             // 
+            // txtDoc
+            // 
+            this.txtDoc.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
+            this.txtDoc.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtDoc.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.txtDoc.BorderThickness = 3;
+            this.txtDoc.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtDoc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtDoc.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtDoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtDoc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.txtDoc.isPassword = false;
+            this.txtDoc.Location = new System.Drawing.Point(105, 4);
+            this.txtDoc.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDoc.Name = "txtDoc";
+            this.txtDoc.Size = new System.Drawing.Size(533, 37);
+            this.txtDoc.TabIndex = 1;
+            this.txtDoc.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txtNurse
+            // 
+            this.txtNurse.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
+            this.txtNurse.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtNurse.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.txtNurse.BorderThickness = 3;
+            this.txtNurse.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNurse.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtNurse.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtNurse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtNurse.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.txtNurse.isPassword = false;
+            this.txtNurse.Location = new System.Drawing.Point(105, 49);
+            this.txtNurse.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNurse.Name = "txtNurse";
+            this.txtNurse.Size = new System.Drawing.Size(533, 37);
+            this.txtNurse.TabIndex = 2;
+            this.txtNurse.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txtAcco
+            // 
+            this.txtAcco.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
+            this.txtAcco.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtAcco.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.txtAcco.BorderThickness = 3;
+            this.txtAcco.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtAcco.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtAcco.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtAcco.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtAcco.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.txtAcco.isPassword = false;
+            this.txtAcco.Location = new System.Drawing.Point(105, 94);
+            this.txtAcco.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAcco.Name = "txtAcco";
+            this.txtAcco.Size = new System.Drawing.Size(533, 37);
+            this.txtAcco.TabIndex = 3;
+            this.txtAcco.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txtHelp
+            // 
+            this.txtHelp.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
+            this.txtHelp.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtHelp.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.txtHelp.BorderThickness = 3;
+            this.txtHelp.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtHelp.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtHelp.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtHelp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtHelp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.txtHelp.isPassword = false;
+            this.txtHelp.Location = new System.Drawing.Point(105, 139);
+            this.txtHelp.Margin = new System.Windows.Forms.Padding(4);
+            this.txtHelp.Name = "txtHelp";
+            this.txtHelp.Size = new System.Drawing.Size(533, 37);
+            this.txtHelp.TabIndex = 4;
+            this.txtHelp.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txtBilling
+            // 
+            this.txtBilling.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(179)))));
+            this.txtBilling.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtBilling.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.txtBilling.BorderThickness = 3;
+            this.txtBilling.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtBilling.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtBilling.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtBilling.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtBilling.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.txtBilling.isPassword = false;
+            this.txtBilling.Location = new System.Drawing.Point(105, 184);
+            this.txtBilling.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBilling.Name = "txtBilling";
+            this.txtBilling.Size = new System.Drawing.Size(533, 39);
+            this.txtBilling.TabIndex = 5;
+            this.txtBilling.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // ControlComplain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -451,10 +446,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel16;
         private ns1.BunifuThinButton2 ComplainSubmitBtn;
-        private ns1.BunifuMaterialTextbox txtBilling;
-        private ns1.BunifuMaterialTextbox txtHelp;
-        private ns1.BunifuMaterialTextbox txtAcco;
-        private ns1.BunifuMaterialTextbox txtNurse;
         private System.Windows.Forms.PictureBox pictureBox1;
         private ns1.BunifuImageButton btnHome;
         private System.Windows.Forms.Label lvlDoc;
@@ -462,7 +453,6 @@
         private System.Windows.Forms.Label lblHlp;
         private System.Windows.Forms.Label lvlAcco;
         private System.Windows.Forms.Label lblNurse;
-        private ns1.BunifuMaterialTextbox txtDoc;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel PanelComplain;
@@ -470,5 +460,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private ns1.BunifuiOSSwitch bunifuiOSSwitch1;
+        private ns1.BunifuMetroTextbox txtBilling;
+        private ns1.BunifuMetroTextbox txtHelp;
+        private ns1.BunifuMetroTextbox txtAcco;
+        private ns1.BunifuMetroTextbox txtNurse;
+        private ns1.BunifuMetroTextbox txtDoc;
     }
 }
