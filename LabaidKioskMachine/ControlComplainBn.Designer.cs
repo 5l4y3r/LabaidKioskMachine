@@ -48,20 +48,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.bunifuiOSSwitch1 = new ns1.BunifuiOSSwitch();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.bunifuImageButton1 = new ns1.BunifuImageButton();
             this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
             this.ComplainSubmitBtn = new ns1.BunifuThinButton2();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuImageButton1 = new ns1.BunifuImageButton();
             this.PanelComplain.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel16.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
+            this.tableLayoutPanel16.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelComplain
@@ -239,7 +239,7 @@
             this.txtDoc.Margin = new System.Windows.Forms.Padding(4);
             this.txtDoc.Name = "txtDoc";
             this.txtDoc.Size = new System.Drawing.Size(527, 39);
-            this.txtDoc.TabIndex = 1;
+            this.txtDoc.TabIndex = 0;
             this.txtDoc.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txtNurse
@@ -258,7 +258,7 @@
             this.txtNurse.Margin = new System.Windows.Forms.Padding(4);
             this.txtNurse.Name = "txtNurse";
             this.txtNurse.Size = new System.Drawing.Size(527, 39);
-            this.txtNurse.TabIndex = 2;
+            this.txtNurse.TabIndex = 1;
             this.txtNurse.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txtHelp
@@ -277,7 +277,7 @@
             this.txtHelp.Margin = new System.Windows.Forms.Padding(4);
             this.txtHelp.Name = "txtHelp";
             this.txtHelp.Size = new System.Drawing.Size(527, 39);
-            this.txtHelp.TabIndex = 4;
+            this.txtHelp.TabIndex = 3;
             this.txtHelp.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txtAcco
@@ -296,7 +296,7 @@
             this.txtAcco.Margin = new System.Windows.Forms.Padding(4);
             this.txtAcco.Name = "txtAcco";
             this.txtAcco.Size = new System.Drawing.Size(527, 39);
-            this.txtAcco.TabIndex = 3;
+            this.txtAcco.TabIndex = 2;
             this.txtAcco.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txtBilling
@@ -315,7 +315,7 @@
             this.txtBilling.Margin = new System.Windows.Forms.Padding(4);
             this.txtBilling.Name = "txtBilling";
             this.txtBilling.Size = new System.Drawing.Size(527, 40);
-            this.txtBilling.TabIndex = 5;
+            this.txtBilling.TabIndex = 4;
             this.txtBilling.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // tableLayoutPanel1
@@ -377,6 +377,37 @@
             this.bunifuiOSSwitch1.Value = true;
             this.bunifuiOSSwitch1.OnValueChange += new System.EventHandler(this.bunifuiOSSwitch1_OnValueChange);
             // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.90551F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84.09449F));
+            this.tableLayoutPanel3.Controls.Add(this.bunifuImageButton1, 0, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 140);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(635, 33);
+            this.tableLayoutPanel3.TabIndex = 10;
+            // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuImageButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuImageButton1.ErrorImage = null;
+            this.bunifuImageButton1.Image = global::LabaidKioskMachine.Properties.Resources.left_arrow_1_;
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(3, 3);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(94, 27);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 3;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
+            this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
+            // 
             // tableLayoutPanel16
             // 
             this.tableLayoutPanel16.BackColor = System.Drawing.Color.Transparent;
@@ -425,37 +456,6 @@
             // 
             this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.90551F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84.09449F));
-            this.tableLayoutPanel3.Controls.Add(this.bunifuImageButton1, 0, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 140);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(635, 33);
-            this.tableLayoutPanel3.TabIndex = 10;
-            // 
-            // bunifuImageButton1
-            // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuImageButton1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuImageButton1.ErrorImage = null;
-            this.bunifuImageButton1.Image = global::LabaidKioskMachine.Properties.Resources.left_arrow_1_;
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(3, 3);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(95, 27);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton1.TabIndex = 3;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
-            this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
-            // 
             // ControlComplainBn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -471,9 +471,9 @@
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            this.tableLayoutPanel16.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
+            this.tableLayoutPanel16.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

@@ -93,7 +93,7 @@
             this.txtName.Margin = new System.Windows.Forms.Padding(4);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(507, 40);
-            this.txtName.TabIndex = 1;
+            this.txtName.TabIndex = 0;
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label2
@@ -105,7 +105,7 @@
             this.label2.Location = new System.Drawing.Point(24, 48);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 52);
-            this.label2.TabIndex = 3;
+            this.label2.TabIndex = 2;
             this.label2.Text = "Mobile No";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -124,7 +124,7 @@
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(509, 46);
-            this.tableLayoutPanel3.TabIndex = 6;
+            this.tableLayoutPanel3.TabIndex = 1;
             // 
             // txtAge
             // 
@@ -143,7 +143,7 @@
             this.txtAge.Margin = new System.Windows.Forms.Padding(4);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(111, 38);
-            this.txtAge.TabIndex = 3;
+            this.txtAge.TabIndex = 1;
             this.txtAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txtContact
@@ -163,7 +163,7 @@
             this.txtContact.Margin = new System.Windows.Forms.Padding(4);
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(283, 38);
-            this.txtContact.TabIndex = 2;
+            this.txtContact.TabIndex = 0;
             this.txtContact.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label3
@@ -175,7 +175,7 @@
             this.label3.Location = new System.Drawing.Point(294, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 46);
-            this.label3.TabIndex = 4;
+            this.label3.TabIndex = 13;
             this.label3.Text = "Age";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -246,7 +246,7 @@
             this.label5.Margin = new System.Windows.Forms.Padding(3, 0, 8, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 53);
-            this.label5.TabIndex = 8;
+            this.label5.TabIndex = 15;
             this.label5.Text = "I am a";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -259,7 +259,7 @@
             this.label4.Location = new System.Drawing.Point(24, 100);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(133, 44);
-            this.label4.TabIndex = 4;
+            this.label4.TabIndex = 12;
             this.label4.Text = "Email(optional)";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -272,7 +272,7 @@
             this.radioButton2.Location = new System.Drawing.Point(251, 3);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(125, 47);
-            this.radioButton2.TabIndex = 5;
+            this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Patient\'s Relative";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -286,7 +286,7 @@
             this.radioButton1.Location = new System.Drawing.Point(176, 3);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(69, 47);
-            this.radioButton1.TabIndex = 4;
+            this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Patient";
             this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -309,7 +309,7 @@
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(507, 36);
-            this.txtEmail.TabIndex = 5;
+            this.txtEmail.TabIndex = 2;
             this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // tableLayoutPanel2
@@ -350,7 +350,7 @@
             this.AddUserBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AddUserBtn.Name = "AddUserBtn";
             this.AddUserBtn.Size = new System.Drawing.Size(157, 66);
-            this.AddUserBtn.TabIndex = 6;
+            this.AddUserBtn.TabIndex = 0;
             this.AddUserBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.AddUserBtn.Click += new System.EventHandler(this.AddUserBtn_Click);
             // 
@@ -370,7 +370,7 @@
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(509, 53);
-            this.tableLayoutPanel4.TabIndex = 11;
+            this.tableLayoutPanel4.TabIndex = 4;
             // 
             // tableLayoutPanel1
             // 
@@ -400,7 +400,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.87227F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.97196F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(816, 288);
-            this.tableLayoutPanel1.TabIndex = 2;
+            this.tableLayoutPanel1.TabIndex = 0;
             // 
             // PanelUserInfo
             // 

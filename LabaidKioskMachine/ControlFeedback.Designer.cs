@@ -1010,7 +1010,8 @@
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
             this.bunifuCustomLabel3.Size = new System.Drawing.Size(183, 25);
             this.bunifuCustomLabel3.TabIndex = 18;
-            this.bunifuCustomLabel3.Text = "please name the consultant/Nurse/Employee whom assist you most";
+            this.bunifuCustomLabel3.Text = "Please name the Consultant / Nurse / Employee whom do you feel they provided you " +
+    "good support and services";
             // 
             // bunifuCustomLabel4
             // 
@@ -1021,7 +1022,8 @@
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
             this.bunifuCustomLabel4.Size = new System.Drawing.Size(183, 25);
             this.bunifuCustomLabel4.TabIndex = 19;
-            this.bunifuCustomLabel4.Text = "Please name the Consultant/Nurse/Employee whom you feel need to update";
+            this.bunifuCustomLabel4.Text = "Please name the Consultant / Nurse / Employee whom do you feel they need to impro" +
+    "ve on support and services";
             // 
             // txtLike
             // 
@@ -1341,7 +1343,7 @@
             this.labelQuestionGroup8.Name = "labelQuestionGroup8";
             this.labelQuestionGroup8.Size = new System.Drawing.Size(158, 15);
             this.labelQuestionGroup8.TabIndex = 7;
-            this.labelQuestionGroup8.Text = "Comments";
+            this.labelQuestionGroup8.Text = "Overall Feedback";
             this.labelQuestionGroup8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel2

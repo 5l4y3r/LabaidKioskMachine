@@ -50,18 +50,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.bunifuiOSSwitch1 = new ns1.BunifuiOSSwitch();
-            this.PanelComplain = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.bunifuImageButton1 = new ns1.BunifuImageButton();
+            this.PanelComplain = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel16.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.PanelComplain.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
+            this.PanelComplain.SuspendLayout();
             this.SuspendLayout();
             // 
             // backgroundWorker1
@@ -408,23 +408,6 @@
             this.bunifuiOSSwitch1.Value = true;
             this.bunifuiOSSwitch1.OnValueChange += new System.EventHandler(this.bunifuiOSSwitch1_OnValueChange);
             // 
-            // PanelComplain
-            // 
-            this.PanelComplain.BackColor = System.Drawing.Color.White;
-            this.PanelComplain.ColumnCount = 2;
-            this.PanelComplain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.212291F));
-            this.PanelComplain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96.78771F));
-            this.PanelComplain.Controls.Add(this.tableLayoutPanel7, 1, 0);
-            this.PanelComplain.Controls.Add(this.tableLayoutPanel16, 1, 1);
-            this.PanelComplain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelComplain.Location = new System.Drawing.Point(0, 0);
-            this.PanelComplain.Name = "PanelComplain";
-            this.PanelComplain.RowCount = 2;
-            this.PanelComplain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 82.62548F));
-            this.PanelComplain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.37452F));
-            this.PanelComplain.Size = new System.Drawing.Size(790, 518);
-            this.PanelComplain.TabIndex = 2;
-            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 2;
@@ -456,6 +439,23 @@
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
             // 
+            // PanelComplain
+            // 
+            this.PanelComplain.BackColor = System.Drawing.Color.White;
+            this.PanelComplain.ColumnCount = 2;
+            this.PanelComplain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.212291F));
+            this.PanelComplain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96.78771F));
+            this.PanelComplain.Controls.Add(this.tableLayoutPanel7, 1, 0);
+            this.PanelComplain.Controls.Add(this.tableLayoutPanel16, 1, 1);
+            this.PanelComplain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelComplain.Location = new System.Drawing.Point(0, 0);
+            this.PanelComplain.Name = "PanelComplain";
+            this.PanelComplain.RowCount = 2;
+            this.PanelComplain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 82.62548F));
+            this.PanelComplain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.37452F));
+            this.PanelComplain.Size = new System.Drawing.Size(790, 518);
+            this.PanelComplain.TabIndex = 2;
+            // 
             // ControlComplain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -472,9 +472,9 @@
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            this.PanelComplain.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
+            this.PanelComplain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
