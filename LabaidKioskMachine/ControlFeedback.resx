@@ -120,19 +120,16 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="FeedbackSubmitBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAJEAAAAlCAYAAABCgwtAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ9SURBVHhe7ds/aBNRHAfwjI6ObjqKtAki0mpIUiuUbjpo
-        roXSxDZpQMVJ1EHUQdAmqdcklxKd/ANdaov4B0VoqcVa0KGUUiwdIhUy2BAu1aAlGZ5+L89IaI13jYOY
-        7wcOApdkuS/3fu+937MRERERERHRv273Vd8Oe8Tb5UoEnrkT/fOtMV/WHlEEr///wrPGM/doganmsOJ3
-        qMd2yliYZw+f6Dwc9+fOTYTXn7+fFe8+LolMfk1QY8CzxjOfXHkrLjwZ/uJM9Oktqi8o41EbEteWDE70
-        jl7RswVd/iU1us8bBXH+sZp3a8G5feGTu2RcNkOA3FpgdXxhsih/S1TldXpedKROrzpuKHtkbKrhDcQA
-        0Z9gmEO9JGPzC2ogDGHlrxHVNjh1t+CMnbom41OehaGIZg1EZm2UiqLz9tlcU7R7rxEiTOFQgcv7RKbc
-        eTNeOhT3q0aIsBaAqRyRFcufPogfU/+0ESJnzJ9J5zLyFpE5GNL2D3WXjBAduNXzFesARFZhddsIET4Q
-        bQdDRHVjiKhuDBHVrRIiVNiotImsqoQIvSNs86DtqIQI2/vYnSWyAmuLWGM0QnRwqOdydPrBN3mPyJRH
-        i9PClegbM0KE3pCjIyGddRFZERq7nm8a9B43QgSeZDA6PDPKTVgy5enSTPFIcuCFjE8Z2kHakwOLC5kV
-        +TWiraFlyKMF1rZs3kdvSEfqTJabsfQ7CJBy72LOEVHaZGw2a77pbUWfdWr2IQttqvJyea5ovIFqBegn
-        DG0urT/edf+SjgqcHY+NC90dODKGo2PtI6FXls+fIXGYwrWovetYVOLVeBfahHB4FYdYZSyIiIiIiOjv
-        s9m+A8U7eReOk9QdAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAFEAAAAWCAYAAAC40nDiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHcSURBVFhH7ZdNKERRFMdnaWlpx1Iy80TyPWQhOxLzRslM
+        YyZFWQkLsVF4YzxmhmahxMIGQyRFRJFiIUk+FmrUpEzTGCZkc73/uCZXZGOh5vzq1bmv817dX/ecd56O
+        IAiCIIj/SK6rcTa935LClwlwz+A0mcs89jWjp+W4cNwSMjhllgwX9oo9l3vt23pFtkpqTSrXIqD5meaB
+        zKRBOSO+4BiU+upitzXc4Vei6+f77OjmjAXv71iygL1iz1tXh6xrdeyxxGOLFKgWB9eTAO4SAaQhhvGK
+        CYe/ea4vEopF3t9IsIeXGOtcUe+NXsdBltKQBlfZI42ZgsQit1WFQKPXHlg82XrlzxJf2Ls+ZlW+tgAq
+        F2UuSCx1227R+0jg76DMP/qlIHFgcypWN90Z5XnEL6BPmmd7IoLEMm9LtHzCcXkSvOJpxE/gW6Gdwju0
+        PlGixzaPRlnlaw9dh4M8nfgKBMoz3WHJKVfku5p6BYnZw6ZaxPohUyEM+/YXnvlzBGfj4uAVJxAC4UpS
+        GnJEidopjC80MGRr5e1GzS+f7sTtJysYbTAnY16unGzd/Tx0v/+McInSiDnw3UQO4yjzArU5iuRkvPJG
+        m54wteDPjWsR0HKWeEgQBEEQf4FO9waKlXZaUGPVOAAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="bunifuiOSSwitch1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

@@ -350,6 +350,9 @@ namespace LabaidKioskMachine
                 {
                     writer.WriteLine(QLabels[i].Text + " = " + QLabelEx[i].Text);
                 }
+                writer.WriteLine(" ");
+                writer.WriteLine("Employee Like: "+txtLike);
+                writer.WriteLine("Employee Like: " + txtDislike);
             }
 
 
@@ -409,6 +412,15 @@ namespace LabaidKioskMachine
                 cc.Dock = DockStyle.Fill;
 
             }
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Controls.Clear();
+            ControlUserInfo cc = new ControlUserInfo(2, uName, uAge, uContact, uRelation, uEmail);
+            this.Controls.Add(cc);
+            cc.Show();
+            cc.Dock = DockStyle.Fill;
         }
     }
 }

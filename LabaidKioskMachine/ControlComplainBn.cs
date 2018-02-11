@@ -154,5 +154,14 @@ namespace LabaidKioskMachine
 
             }
         }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Controls.Clear();
+            ControlUserInfoBn cc = new ControlUserInfoBn(1, uName, uAge, uContact, uRelation, uEmail);
+            this.Controls.Add(cc);
+            cc.Show();
+            cc.Dock = DockStyle.Fill;
+        }
     }
 }

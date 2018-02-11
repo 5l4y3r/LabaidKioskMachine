@@ -13,12 +13,30 @@ namespace LabaidKioskMachine
             InitializeComponent();
 
         }
+        public ControlUserInfo(int pointz, string name,int age,string contact,string relation, string email)
+        {
+            p = pointz;
+            InitializeComponent();
+            txtAge.Text = Convert.ToString(age);
+            txtName.Text = name;
+            txtContact.Text = contact;
+            txtEmail.Text= email;
+            if (relation == "Patient")
+            {
+                radioButton1.Checked = true;
+            }
+            else
+            {
+                radioButton2.Checked = true;
+            }
+
+        }
 
         private void AddUserBtn_Click(object sender, EventArgs e)
         {
             int tempmbl = 0, tempName = 0, tempage = 0, tempUpdate=0;
             string name, contact, relation, email;
-            var regex = new Regex(@"^\d+$");
+            var regex = new Regex(@"^\d{2}$");
             string age = txtAge.Text;
             name = txtName.Text;
             contact = txtContact.Text;
@@ -55,7 +73,7 @@ namespace LabaidKioskMachine
             if (!regex.IsMatch(txtAge.Text))
             {
                 
-                MessageBox.Show("Use only Number in Age!");
+                MessageBox.Show("Age should be <100!");
             }
             else
             {
@@ -91,7 +109,7 @@ namespace LabaidKioskMachine
         }
 
         public  Regex regexName = new Regex(
-      "(^[A-Za-z]*$)",
+      "(^[A-Za-z ]*$)",
     RegexOptions.IgnoreCase
     | RegexOptions.CultureInvariant
     | RegexOptions.IgnorePatternWhitespace
