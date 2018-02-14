@@ -127,7 +127,7 @@ namespace LabaidKioskMachine
         private void btnHome_Click(object sender, EventArgs e)
         {
             this.Controls.Clear();
-            ControlWelcomeBn cc = new ControlWelcomeBn();
+            ControlWelcome cc = new ControlWelcome();
             this.Controls.Add(cc);
             cc.Show();
             cc.Dock = DockStyle.Fill;

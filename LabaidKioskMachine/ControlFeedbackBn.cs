@@ -19,25 +19,61 @@ namespace LabaidKioskMachine
         public List<string> feedbkList = new List<string>();
         public List<Label> QLabelEx = new List<Label>();
         public List<BunifuRating> QStars = new List<BunifuRating>();
-
+        int[,] arrayRating = new int[18, 1];
         static string uName = "";
         static int uAge = 0;
         static string uRelation = "";
         static string uContact = "";
         static string uEmail = "";
 
-
-        public ControlFeedbackBn(string s1, int s2, string s3, string s4, string s5)
+        public ControlFeedbackBn( string s1, int s2, string s3, string s4, string s5)
         {
             InitializeComponent();
+
             uName = s1;
             uAge = s2;
             uRelation = s4;
             uContact = s3;
             uEmail = s5;
+           
             bunifuiOSSwitch1.Value = false;
             AddingLabelInList();
             VisibilityControl();
+
+
+        }
+        public ControlFeedbackBn(int[,]tv,string s1, int s2, string s3, string s4, string s5)
+        {
+            InitializeComponent();
+
+            uName = s1;
+            uAge = s2;
+            uRelation = s4;
+            uContact = s3;
+            uEmail = s5;
+            for (int i = 0; i < 18; i++)
+            {
+                arrayRating[i, 0] = tv[i, 0];
+            }
+            bunifuiOSSwitch1.Value = false;
+            AddingLabelInList();
+            VisibilityControl();
+            for (int i = 0; i < 18; i++)
+            {
+                QStars[i].Value = arrayRating[i, 0];
+                if (arrayRating[i, 0] > 0)
+                {
+                    QLabelEx[i].Visible = true;
+                    QLabelEx[i].Text = rateText(arrayRating[i,0]);
+                }
+                if (QLabelEx[i].Text=="No feedback")
+                {
+                    QLabelEx[i].Visible = false;
+                   
+                }
+            }
+
+           
 
 
         }
@@ -404,9 +440,12 @@ namespace LabaidKioskMachine
         {
             if (bunifuiOSSwitch1.Value)
             {
-
+                for (int i = 0; i < 18; i++)
+                {
+                    arrayRating[i, 0] = QStars[i].Value;
+                }
                 this.Controls.Clear();
-                ControlFeedback cc = new ControlFeedback(uName, uAge, uRelation, uContact, uEmail);
+                ControlFeedback cc = new ControlFeedback(arrayRating,uName, uAge, uRelation, uContact, uEmail);
                 this.Controls.Add(cc);
                 cc.Show();
                 cc.Dock = DockStyle.Fill;

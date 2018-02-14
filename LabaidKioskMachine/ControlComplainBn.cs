@@ -31,7 +31,22 @@ namespace LabaidKioskMachine
             uEmail = s5;
             x = 0;
         }
-
+        public ControlComplainBn(string[] arr, string s1, int s2, string s3, string s4, string s5)
+        {
+            InitializeComponent();
+            txtDoc.Text = arr[0];
+            txtNurse.Text = arr[1];
+            txtAcco.Text = arr[2];
+            txtHelp.Text = arr[3];
+            txtBilling.Text = arr[4];
+            uName = s1;
+            uAge = s2;
+            uRelation = s4;
+            uContact = s3;
+            uEmail = s5;
+            x = 0;
+           
+        }
         private void ComplainSubmitBtn_Click(object sender, EventArgs e)
         {
             string s1 = " ", s2 = " ", s3 = " ", s4 = " ", s5 = " ", s11, s22, s33, s44, s55;
@@ -145,9 +160,16 @@ namespace LabaidKioskMachine
         {
             if (bunifuiOSSwitch1.Value)
             {
+                string[] arr = new string[5];
 
-                this.Controls.Clear();
-                ControlComplain cc = new ControlComplain(uName, uAge, uRelation, uContact, uEmail);
+                arr[0] = txtDoc.Text;
+                arr[1] = txtNurse.Text;
+                arr[2] = txtAcco.Text;
+                arr[3] = txtHelp.Text;
+                arr[4] = txtBilling.Text;
+                 this.Controls.Clear();
+
+                ControlComplain cc = new ControlComplain(arr,uName, uAge, uRelation, uContact, uEmail);
                 this.Controls.Add(cc);
                 cc.Show();
                 cc.Dock = DockStyle.Fill;

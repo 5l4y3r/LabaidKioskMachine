@@ -429,7 +429,7 @@
             this.PanelUserInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.PanelUserInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.PanelUserInfo.Size = new System.Drawing.Size(752, 506);
-            this.PanelUserInfo.TabIndex = 3;
+            this.PanelUserInfo.TabIndex = 0;
             // 
             // ControlUserInfoBn
             // 
