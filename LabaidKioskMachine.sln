@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabaidKioskMachine", "LabaidKioskMachine\LabaidKioskMachine.csproj", "{D973C1CA-70CF-4FF6-92DF-BA48765C3F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{96981E1B-3063-4494-9F43-CEC831C356D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLink", "DataLink\DataLink.csproj", "{DF027BAE-9C95-4FC1-8166-862E016ABB74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{D973C1CA-70CF-4FF6-92DF-BA48765C3F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D973C1CA-70CF-4FF6-92DF-BA48765C3F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D973C1CA-70CF-4FF6-92DF-BA48765C3F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96981E1B-3063-4494-9F43-CEC831C356D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96981E1B-3063-4494-9F43-CEC831C356D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96981E1B-3063-4494-9F43-CEC831C356D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96981E1B-3063-4494-9F43-CEC831C356D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF027BAE-9C95-4FC1-8166-862E016ABB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF027BAE-9C95-4FC1-8166-862E016ABB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF027BAE-9C95-4FC1-8166-862E016ABB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF027BAE-9C95-4FC1-8166-862E016ABB74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33568059-7C93-4DEA-AF25-8EDAD6DCA4B7}
 	EndGlobalSection
 EndGlobal
