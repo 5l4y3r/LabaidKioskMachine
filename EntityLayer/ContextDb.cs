@@ -12,7 +12,7 @@ namespace EntityLayer
     {
         public ContextDb() : base("Name=LabaidHealthKioskDb")
         {
-            
+            AppDomain.CurrentDomain.SetData("DataDirectory", System.IO.Directory.GetCurrentDirectory());
         }
         public DbSet<UserInfo> UserInfos { get; set; }
         public DbSet<Complaint> Advertisements { get; set; }
