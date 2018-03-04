@@ -15,8 +15,8 @@ namespace EntityLayer
             AppDomain.CurrentDomain.SetData("DataDirectory", System.IO.Directory.GetCurrentDirectory());
         }
         public DbSet<UserInfo> UserInfos { get; set; }
-        public DbSet<Complaint> Advertisements { get; set; }
-        public DbSet<Feedback> Questions { get; set; }
+        public DbSet<Complaint> Complaints { get; set; }
+        public DbSet<Feedback> Feedbacks { get; set; }
   
     }
     
