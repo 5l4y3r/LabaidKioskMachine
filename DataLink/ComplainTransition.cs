@@ -20,7 +20,7 @@ namespace DataLink
                 ComplainNurse = CNur,
                 ComplainAccomodation = CAcco,
                 ComplainHelp = CHelp,
-                ComplainBilling = CBill
+                ComplainBilling =  CBill
                 
 
             });
